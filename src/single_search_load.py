@@ -142,6 +142,6 @@ if __name__ == '__main__':
     files = glob.glob(folder + "/*.txt")
     dfs = original_scan_data_dataframe(files)
     print(dfs[0]["slow_freq_list"])
-    #print(get_peak(files[0]))
-    #print(single_scan_dataframe(files))
+    print(get_peak(files[0]))
+    print(single_scan_dataframe(files))
     
